@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Created-By: IntelliJ IDEA
+Built-By: Michał
+Build-Jdk: 13.0.1
+Implementation-Title: lista6 Maven Webapp
+Implementation-Version: 1.0-SNAPSHOT
+Implementation-Vendor-Id: com.mmarciniak
+Main-Class: ${start-class}
+

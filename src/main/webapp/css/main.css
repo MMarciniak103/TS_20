@@ -1,0 +1,199 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+body {
+  overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
+  color: #505962;
+}
+
+.offset::before {
+  display: block;
+  content: "";
+  height: 4rem;
+  margin-top: -4rem;
+}
+
+.navbar {
+  text-transform: uppercase;
+  font-weight:700;
+  font-size: .9rem;
+  letter-spacing: .1rem;
+  background: #3e4954;
+}
+.navbar-brand svg{
+  color:  #04d189;
+}
+
+.navbar-dark h1 {
+  color: #04d189;
+  font-weight: 700;
+  font-size: 3rem;
+  padding: 0.5rem 0.5rem;
+  margin: 0.5rem 0.5rem;
+  text-shadow: 0.5rem 0.5rem 0.8rem black;
+}
+
+.navbar-nav li{
+  font-size: 2rem;
+  color: #04d189!important;
+}
+.navbar-nav  .nav-item .nav-link {
+  color: #04d189!important;
+  padding-top: .8rem;
+}
+
+.navbar-nav  .nav-item .nav-link:hover{
+  color: #00ffa5!important;
+}
+.landing {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: table;
+  z-index: -1;
+}
+.home-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.home-inner {
+  position: fixed;
+  display: table;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+
+.home-inner {
+  background-image: url(../img/sun.jpg);
+  background-color: rgba(0,0,0,0.7);
+}
+
+#top-info {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top:38%;
+  z-index: 1;
+  color:white;
+  text-transform: uppercase;
+}
+#top-info h1 {
+  font-size: 3.5rem;
+  font-weight: 700rem;
+  letter-spacing: .3rem;
+  text-shadow: .1rem .1rem .8rem black;
+  padding-bottom: 1rem;
+}
+
+#top-info p {
+  font-size: 2rem;
+  text-shadow: .1rem .1rem .6rem black;
+  font-weight: 700rem;
+}
+#top-info a.btn-lg{
+  color: white;
+  text-shadow: .1rem .1rem .6rem black;
+  background-color: #04d189;
+  font-size: 2.5rem;
+  font-weight: 700rem;
+  border-radius: 0;
+  border-width: medium;
+  padding: .6rem 1.3rem;
+  box-shadow: .1rem .1rem .4rem white;
+}
+#top-info a.btn-lg:hover{
+  background-color:  #00ffa5;
+  box-shadow: .1rem .1rem .4rem #04d189;
+}
+
+footer {
+  background-color: #40474e;
+  color:white;
+  padding: 2rem 0 2rem;
+  justify-content: center;
+}
+
+footer svg {
+  color:  #04d189
+}
+footer h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-top: 0.5rem;
+  font-size: 3rem;
+}
+footer p {
+  margin: .5rem .1rem;
+  padding: .5rem .1rem;
+  font-size: 1.5rem;
+}
+
+
+.ranking-img {
+  background-image: url(../img/monopoly.jpg)!important;
+}
+
+#home-ranking {
+  /* margin-bottom: 65px; */
+}
+
+#ranking-body{
+    background-color: #3e4954;
+}
+
+
+ table.ranking {
+  position:  absolute;
+  top: 35%;
+  left: 50%;
+  align-content: center;
+  width: 80%;
+  max-width: 80%;
+  margin-left: -40%;
+  z-index: 1;
+
+}
+table.ranking thead{
+  /* margin-top: 20px; */
+  background-color:  #04d189;
+  width: 100%;
+  color: white;
+}
+table.ranking tbody {
+  background-color: #3e4954;
+  color: #04d189;
+  width:100%;
+}
+table.ranking tr {
+  text-align: center;
+}
+table.ranking th{
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+table.ranking td{
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 0.5rem;
+  text-transform: uppercase;
+}
+
